@@ -95,6 +95,7 @@ const getLastSavedStatus = () => readJSON('last-saved-status.json');
 const saveLastStatus = status => writeJSON('last-saved-status.json', status);
 
 const notifyAboutPRStatus = status => {
+	console.log('Notifying - ' + status.title + ' got ' + status.status);
 	notifier.notify({
 		title: 'Status: ' + status.status,
 		icon: path.join(__dirname, status.status === 'passed' ? 'check_icon.png' : 'cross_icon.png'),
