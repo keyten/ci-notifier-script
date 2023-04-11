@@ -1,0 +1,1 @@
+# ci-notifier-script
