@@ -1,0 +1,7 @@
+node_modules
+run.sh
+logs
+last-saved-status.json
+package-lock.json
+.DS_Store
+
