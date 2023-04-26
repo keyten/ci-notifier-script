@@ -8,3 +8,6 @@ echo "GITHUB_TOKEN='${GITHUB_TOKEN}'" >> ./run.sh
 echo "/usr/local/bin/node ${SCRIPT_DIR}/run.js" >> ./run.sh
 npm install
 chmod +x ./run.sh
+echo "[]" > ./last-saved-status.json
+mkdir logs
+echo "{}" > ./logs/1.json
