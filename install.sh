@@ -7,3 +7,4 @@ echo "PATH='${PATH}'" >> ./run.sh
 echo "GITHUB_TOKEN='${GITHUB_TOKEN}'" >> ./run.sh
 echo "/usr/local/bin/node ${SCRIPT_DIR}/run.js" >> ./run.sh
 npm install
+chmod +x ./run.sh
